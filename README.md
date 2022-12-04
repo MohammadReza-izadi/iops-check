@@ -24,11 +24,6 @@
 
     Overall IOPS (what most people talk about):
         # iostat -d sda | grep sda | awk '{ print $2; }'
-
-**Link:** https://unix.stackexchange.com/questions/225095/how-to-get-total-read-and-total-write-iops-in-linux
-
-
-
 ## iostat detail
         # The IOPS for this device xvda is r/s + w/s = 100 + 50 =150
         # “r/s”         =   reads per second
